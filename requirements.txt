@@ -1,0 +1,12 @@
+# Install only what you need for the model format you're testing.
+#
+# For GGUF models (--model="model.gguf"):
+llama-cpp-python
+
+# For HuggingFace / safetensors model folders (--model="./my-model/"):
+torch
+transformers
+accelerate
+
+# Optional, only needed on some Windows terminals for colored output:
+# colorama
