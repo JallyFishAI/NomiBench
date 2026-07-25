@@ -211,3 +211,5 @@ README.md            - this file
 - **Colors look broken on Windows** → add `--no-color`, or
   `pip install colorama` and modern Windows Terminal/PowerShell will
   usually render ANSI colors fine anyway.
+
+  *Since I'm too dumb to benchmark SLM's normally, I let Claude generate this Benchmark script.
